@@ -1,0 +1,66 @@
+{
+  "_args": [
+    [
+      "sleek_blog-master",
+      "F:\\sleek_blog-master"
+    ]
+  ],
+  "_from": "sleek_blog-master",
+  "_id": "browser-sync-jekyll@0.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/browser-sync-jekyll",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": null,
+    "raw": "sleek_blog-master",
+    "rawSpec": "sleek_blog-master",
+    "scope": null,
+    "spec": "F:\\sleek_blog-master\\sleek_blog-master",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:sleek_blog-master",
+  "_shasum": "a6d19bb768db1b3cc5c1ed168b9efc7ea6a8c805",
+  "_shrinkwrap": null,
+  "_spec": "sleek_blog-master",
+  "_where": "F:\\sleek_blog-master",
+  "author": {
+    "name": "Shane Osbourne"
+  },
+  "bugs": {
+    "url": "https://github.com/bawn92/bawn92.git"
+  },
+  "dependencies": {},
+  "description": "My starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "2.3.1",
+    "gulp-jade": "^1.0.1",
+    "gulp-sass": "^2.0.4"
+  },
+  "homepage": "https://github.com/bawn92/bawn92.git",
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
+  "license": "ISC",
+  "main": "gulpfile.js",
+  "name": "browser-sync-jekyll",
+  "optionalDependencies": {},
+  "readme": "=============================\nSleek Blog\n=============================\n\n[Live Website](http://gearoidoconnor.ie)\n\n\nA blog project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync\n\n\n## System Preparation\n\nTo use this project, you'll need the following things installed on your machine.\n\n1. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`\n2. [NodeJS](http://nodejs.org) - use the installer.\n3. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)\n\n## Local Installation\n\n1. Clone this repo, or download it into a directory of your choice.\n2. Inside the directory, run `npm install`.\n\n## Usage\n\n**development mode**\n\nThis will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.\n\n```shell\n$ gulp\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bawn92/bawn92.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.0"
+}
